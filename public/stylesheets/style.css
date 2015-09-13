@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body { 
+    font: 13px Helvetica, Arial;
+    height: 100%;
+}
+h1 {
+    font: 20px;
+    padding: 10px;
+    background: linear-gradient(to right, #990000, #5C001F);
+    color: white;
+    border-bottom: medium solid #6B6B6B;
+}
+#messages {
+    list-style-type: none;
+    margin: 0;
+    overflow-y: auto;
+    height: 480px;
+}
+#messages li {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+li.system {
+    padding: 10px 10px;
+    font-style: italic;
+    text-align: center;
+}
+li.myMessage {
+    background: #eee;
+}
+li.userMessage {
+    background: #F0FFF0;
+}
+span.myMessage {
+    font-weight: bold;
+    color: black;
+}
+span.userMessage {
+    font-weight: bold;
+    color: #296629;
+}
+
+.date {
+    font-size: 9px;
+    color: gray;
+    font-style: italic;
+}
+form {
+    padding: 5px;
+    width: 100%;
+}
+form input {
+    padding: 12px;
+    border: 2px solid #6B6B6B;
+    border-radius: 10px;
+    width: 90%;
+    margin-right: .5%;
+}
+form button {
+    padding: 12px;
+	border: 2px solid #990000;
+    border-radius: 10px;
+    width: 9.5%;
+    color: white;
+    background: #990000;
+    font-weight: bold;
+}
+form button:hover {
+    border: 2px solid #296629;
+    background: #296629;
+}
+footer {
+    padding: 5px 10px;
+    font-size: 10px;
+    background: #eee;
+}
